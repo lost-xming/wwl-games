@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 
-app.use(express.static("/wwl-games/game-test/muditaowang/"));
+app.use(express.static("/wwl-games/game-test/"));
 app.get("/", function (req, res) {
 	res.send("Hello World!");
 });
